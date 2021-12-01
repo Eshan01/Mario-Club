@@ -1,0 +1,244 @@
+body, main, ul,li,p{
+    position:relative;
+    left:0;
+    right:0;
+    margin:0 auto;
+    font-family:tahoma;
+}
+header{
+    /* padding:40px; */
+    background-color: red;
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+header h1{
+    color:white;
+    border:8px solid white;
+    text-align:center;
+    display: inline-block;
+    border-radius:36px;
+    padding:6px 12px;
+}
+.banner{
+    width:100%;
+    position:relative;
+}
+.banner img{
+    max-width:100%;
+}
+.banner{
+    background-color: orange;
+}
+.welcome{
+    padding-bottom: 0;
+}
+.banner h2{
+    
+    text-align:center;
+    color:white;
+    padding-bottom:5%;
+}
+/* .banner .welcome br{
+    display: none;
+} */
+nav{
+    margin-top:-20px;
+    padding:30px;
+    position: relative;
+    text-align:center;
+    background-color: papayawhip;
+}
+nav .link{
+    display: block;
+    line-height: 1.5em;
+}
+.link li{
+    list-style:none;
+
+}
+.link li a{
+    text-decoration: none;    
+    color:rgb(59, 58, 58);
+}
+
+nav li a.join{
+    color: red;
+}
+.link li a:hover{
+    text-decoration: underline;
+}
+main{
+    padding:0 40px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+article{
+    line-height: 40px;
+    color:rgb(59, 58, 58);
+}
+article p:first-line{
+    font-weight: bold;
+}
+article h2{
+    color:red;
+}
+.images{
+    width: 100%;
+    margin:50px 0;
+    padding: 30px 0;
+}
+.images li{
+    position:relative;
+    left:0;
+    list-style: none;
+}
+.images li img{
+    max-width:100%;
+    margin-bottom: 20px;
+    /* margin:50px auto; */
+}
+.images li img:hover{
+    top:-5px;
+}
+.join h2{
+    font-weight: bold;
+    color:red;
+}
+section.join{
+    background: #F4F4F4;
+    color:rgb(59, 58, 58);
+    text-align:center;
+    font-size:1.8em;
+}
+.join p{
+    padding:10px;
+    font-size: 18px;
+}
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+    margin-bottom: 80px;
+    border:4px dashed black;
+}
+form input:focus{
+    outline: none;
+    border:2px dashed rgb(59, 58, 58);
+}
+footer{
+    background:red;
+    padding:30px;
+}
+.copyright{
+    text-align:center;
+    color:white;
+    font-size:20px;
+
+}
+@media screen and (min-width:800px){
+    header{
+        position:fixed;
+        left:0;
+        top:0;
+        width:100%;
+        background-color: red;
+        z-index: 1;
+        text-align:center;
+    }
+    .welcome{
+        background:#FEB614;;
+        position:absolute;
+        top:30%;
+        left:0;
+        padding:30px;
+    }
+    .welcome span{
+        font-weight: bold;
+        font-size:1.4em;
+    }
+    .nav{
+        background-color: seashell;
+        position: sticky;
+        top:100px;
+        left:0;
+        z-index: 1;
+    }
+    nav ul.link{
+        white-space: nowrap;
+        margin-left:-50px;
+    }
+    nav li{
+        display: inline-block; 
+        text-align:center;
+        width:25%;
+    }
+    .images{
+        white-space: nowrap;
+    }
+    .images li{
+        display: inline-block;
+        list-style-type: none;
+        width: 40%;
+        margin: 20px 5%;
+        position: relative;
+    }
+
+
+}
+@media screen and (min-width:1200px){
+    header{
+        position:fixed;
+        left:0;
+        top:0;
+        width:100%;
+        background-color: red;
+        z-index: 1;
+        text-align:center;
+    }
+    .welcome{
+        background:#FEB614;;
+        position:absolute;
+        top:40%;
+        left:0;
+        padding:30px;
+        font-size:30px;
+    }
+    .welcome span{
+        font-weight: bold;
+        font-size:1.4em;
+    }
+    .nav{
+        background-color: seashell;
+        position: sticky;
+        top:100px;
+        left:0;
+        z-index: 1;
+    }
+    nav ul.link{
+        white-space: nowrap;
+        margin-left:-50px;
+    }
+    nav li{
+        display: inline-block; 
+        text-align:center;
+        width:25%;
+    }
+    .images{
+        white-space: nowrap;
+    }
+    .images li{
+        display: inline-block;
+        list-style-type: none;
+        width: 40%;
+        margin: 20px 5%;
+        position: relative;
+    }
+    .images li:hover{
+        top:-4px;
+    }
+
+
+}
